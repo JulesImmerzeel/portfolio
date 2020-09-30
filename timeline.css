@@ -1,0 +1,78 @@
+div.timeline {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	background-color: gray;
+}
+
+div.timeline > div {
+	height: 5rem;
+	background-color: white;
+}
+
+div.timeline > div.top-row:nth-child(odd) {
+	margin-left: 1px;
+}
+
+div.bottom-row {
+	border-top: 1px solid gray;
+}
+
+div#bottom-row-first {
+	margin-left: 0px;
+}
+
+div.timeline > div.bottom-row:nth-child(even) {
+	margin-left: 1px;
+}
+
+.years-bottom,
+.years-top {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.years-top {
+	grid-row: 1;
+}
+
+.years-bottom {
+	grid-row: 4;
+}
+
+#year-2013 {
+	grid-column: 1/3;
+}
+
+#year-2015 {
+	grid-column: 3/5;
+}
+
+#year-2017 {
+	grid-column: 5/7;
+}
+
+#year-2019 {
+	grid-column: 7/9;
+}
+
+#year-2021 {
+	grid-column: 9/11;
+}
+
+#year-2014 {
+	grid-column: 2/4;
+}
+
+#year-2016 {
+	grid-column: 4/6;
+}
+
+#year-2018 {
+	grid-column: 6/8;
+}
+
+#year-2020 {
+	grid-column: 8/10;
+}
