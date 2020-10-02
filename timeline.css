@@ -8,35 +8,24 @@ div.timeline {
 div.timeline > div {
 	height: 2.5rem;
 	background-color: white;
+	grid-column: auto / span 2;
+}
+
+div.timeline > div:nth-child(11n + 6),
+div.timeline > div:nth-child(11n + 11) {
+	grid-column: auto/span 1;
 }
 
 .top-row {
 	margin-left: 1px;
-	grid-row: 2;
-	grid-column: auto / span 2;
 }
-#top-row-first {
-    margin-left: 0px;
-    grid-column: auto/span 1;
-}
-#top-row-last{
-    grid-column: auto/span 1;
-}
-
-
-
-div.bottom-row {
-	border-top: 1px solid gray;
-	margin-left: 1px;
-	grid-row: 3;
-	grid-column: auto / span 2;
-}
-
-div#bottom-row-first {
+#top-row-first,
+#bottom-row-first {
 	margin-left: 0px;
 }
 
-.bottom-row:nth-child(even) {
+div.bottom-row {
+	border-top: 1px solid gray;
 	margin-left: 1px;
 }
 
@@ -45,22 +34,4 @@ div#bottom-row-first {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.years-top {
-	grid-row: 1;
-	grid-column: auto / span 2;
-}
-
-.years-bottom {
-    grid-row: 4;
-    grid-column: auto / span 2;
-}
-
-#years-bottom-first {
-    margin-left: 0px;
-    grid-column: auto / span 1;
-}
-#years-bottom-last {
-    grid-template-columns: auto / span 1;
 }
