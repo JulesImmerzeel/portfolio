@@ -16,22 +16,20 @@ div.timeline > div:nth-child(11n + 11) {
 	grid-column: auto/span 1;
 }
 
-.top-row {
+div.line-row {
 	margin-left: 1px;
 }
-#top-row-first,
-#bottom-row-first {
-	margin-left: 0px;
-}
 
-div.bottom-row {
+div.line-row:nth-child(1n + 12) {
 	border-top: 1px solid gray;
-	margin-left: 1px;
 }
 
-.years-bottom,
-.years-top {
+.years-row {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
+}
+
+div.timeline .row-first {
+	margin-left: 0px;
 }
