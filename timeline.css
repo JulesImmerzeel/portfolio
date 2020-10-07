@@ -1,35 +1,98 @@
-div.timeline {
+.timeline > div:nth-child(3) {
+	border-top: 1px solid black;
+}
+
+.odd,
+.even {
 	display: grid;
 	grid-template-columns: repeat(10, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	background-color: gray;
+	grid-template-rows: minmax(4rem, auto);
 }
 
-div.timeline > div {
-	height: 2.5rem;
-	background-color: white;
-	grid-column: auto / span 2;
+.odd > *,
+.even > * {
+	border-left: 1px solid black;
+	text-align: center;
+	grid-row: 1/2;
 }
 
-div.timeline > div:nth-child(11n + 6),
-div.timeline > div:nth-child(11n + 11) {
-	grid-column: auto/span 1;
+.odd:first-child > *,
+.even:last-child > *,
+.odd :first-child,
+.even > *:nth-child(odd),
+.odd > *:nth-child(even) {
+	border-left: 1px solid transparent;
+}
+.timeline > div *:nth-child(1) {
+	grid-column: 1/2;
+}
+.timeline > div *:nth-child(2) {
+	grid-column: 2/3;
+}
+.timeline > div *:nth-child(3) {
+	grid-column: 3/4;
+}
+.timeline > div *:nth-child(4) {
+	grid-column: 4/5;
+}
+.timeline > div *:nth-child(5) {
+	grid-column: 5/6;
+}
+.timeline > div *:nth-child(6) {
+	grid-column: 6/7;
+}
+.timeline > div *:nth-child(7) {
+	grid-column: 7/8;
+}
+.timeline > div *:nth-child(8) {
+	grid-column: 8/9;
+}
+.timeline > div *:nth-child(9) {
+	grid-column: 9/10;
+}
+.timeline > div *:nth-child(10) {
+	grid-column: 10/11;
 }
 
-div.line-row {
-	margin-left: 1px;
+.even:last-child > span,
+.odd:first-child > span {
+	grid-column: auto/span 2;
 }
 
-div.line-row:nth-child(1n + 12) {
-	border-top: 1px solid gray;
+.event {
+    border-left: none;
+	z-index: 2;
+	height: 75%;
+	width: 97%;
+	align-self: center;
+	justify-self: center;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.years-row {
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
+#middelbareschool {
+	grid-column: 2/7;
+	background-color: orange;
 }
 
-div.timeline .row-first {
-	margin-left: 0px;
+#hogeschool {
+	grid-column: 7/9;
+	background-color: palevioletred;
+}
+
+#axender {
+	grid-column: 2/3;
+	background-color: burlywood;
+}
+
+#albertheijn {
+	grid-column: 3/6;
+	background-color: chocolate;
+}
+
+#nickysplace {
+	grid-column: 6/9;
+	background-color: cornflowerblue;
 }
