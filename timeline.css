@@ -58,10 +58,22 @@
     grid-column: 10/11;
 }
 
-.even:last-child > span,
+.even:last-child > span {
+    padding-top: 1rem;
+    grid-column: auto/span 2;
+    align-self: center;
+    
+}
+
 .odd:first-child > span {
     grid-column: auto/span 2;
     align-self: center;
+    padding-bottom: 1rem;
+    
+}
+.even:last-child,
+.odd:first-child {
+    grid-template-rows: auto;
 }
 
 .event {
