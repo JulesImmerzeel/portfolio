@@ -62,8 +62,8 @@
 .event {
     border-left: none;
 	z-index: 2;
-	height: 75%;
-	width: 97%;
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
 	align-self: center;
 	justify-self: center;
     border-radius: 1rem;
