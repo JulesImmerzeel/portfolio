@@ -1,0 +1,33 @@
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav > a {
+	all: unset;
+	display: inline-block;
+	padding: 0.5rem 1rem 1rem;
+	border-bottom: 3px solid transparent;
+}
+
+nav > a:hover {
+	border-bottom: 3px solid black;
+	padding-bottom: calc(1rem -3px);
+}
+
+.hero-section > p {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+header {
+	grid-area: header;
+	display: grid;
+	grid-template-rows: auto 1fr;
+
+}
+
+.hero-section {
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+}
