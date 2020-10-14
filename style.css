@@ -8,9 +8,7 @@
 	width: 90%;
 	max-width: 1100px;
 	margin: auto;
-}
 
-.wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: calc(25vh - 1rem) calc(50vh - 1rem) 25vh;
@@ -18,16 +16,15 @@
 	gap: 1rem;
 }
 
-
-
 #about {
 	grid-area: about;
 }
+
 #photo {
 	grid-area: photo;
 	max-width: 100%;
 	max-height: 100%;
-	margin-left: auto;
+	justify-self: center;
 }
 
 .timeline {

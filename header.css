@@ -1,6 +1,13 @@
+header {
+	grid-area: header;
+	display: grid;
+	grid-template-rows: auto 1fr;
+}
+
+/* Navigation */
 nav {
 	display: flex;
-	justify-content: center;
+    justify-content: center;    
 }
 
 nav > a {
@@ -15,19 +22,13 @@ nav > a:hover {
 	padding-bottom: calc(1rem -3px);
 }
 
-.hero-section > p {
-	color: rgba(0, 0, 0, 0.75);
-}
-
-header {
-	grid-area: header;
-	display: grid;
-	grid-template-rows: auto 1fr;
-
-}
-
+/* Hero */
 .hero-section {
 	justify-self: center;
 	align-self: center;
 	text-align: center;
+}
+
+.hero-section > p {
+	color: rgba(0, 0, 0, 0.75);
 }
