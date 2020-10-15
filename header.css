@@ -13,7 +13,7 @@ nav {
 nav > a {
 	all: unset;
 	display: inline-block;
-	padding: 0.5rem 1rem 1rem;
+	padding: 1rem 1rem 1rem;
 	border-bottom: 3px solid transparent;
 }
 
