@@ -1,0 +1,10 @@
+.experience {
+    display: block;
+    grid-area: timeline;
+}
+
+@media (min-width: 992px) {
+    .experience {
+        display: none;
+    }
+}
