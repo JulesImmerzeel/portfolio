@@ -26,8 +26,8 @@
 @media (min-width: 992px) {
 	.container {
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: calc(25vh - 1rem) calc(50vh - 1rem) 25vh;
-		grid-template-areas: "header header" "about photo" "timeline timeline";
+		grid-template-rows: repeat(3, calc(25vh - 1rem)) 25vh;
+		grid-template-areas: "header header" "about photo" "skill photo" "timeline timeline";
 	}
 
 }
