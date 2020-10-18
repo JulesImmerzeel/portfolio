@@ -1,4 +1,4 @@
-.skills {
+#skills {
     height: 100%;
     display: grid;
     grid-template-rows: auto repeat(3, 1fr);
@@ -35,4 +35,10 @@
 
 #frontend {
 	background-color: #fbbc05;
+}
+
+@media (max-width: 992px) {
+	.progress-done {
+		padding: 1rem 0rem;
+	}
 }
