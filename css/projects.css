@@ -1,0 +1,23 @@
+#projects {
+    display: grid;
+    grid-area: projects;
+    grid-template-rows: auto repeat(3, minmax(calc(50vh - 5rem), auto));
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 5rem;
+    -webkit-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
+    -moz-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
+    box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
+}
+
+.project > *:nth-child(2) {
+    padding: 1rem;
+}
+
+#projects h2 {
+    margin-bottom: 1rem;
+    z-index: 10;
+}
