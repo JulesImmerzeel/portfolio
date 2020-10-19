@@ -31,7 +31,6 @@
 		grid-template-rows: repeat(3, calc(25vh - 1rem)) 25vh;
 		grid-template-areas: "header header" "about photo" "skills photo" "timeline timeline" "projects projects";
 	}
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
