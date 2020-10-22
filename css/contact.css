@@ -18,12 +18,21 @@
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
-    background-color: #dbdbdb;
+    background-color: hsl(0, 0%, 86%);
+}
+
+#emailform > :not(#submit):focus {
+    background-color: hsl(0, 0%, 76%);
 }
 
 #submit {
-    background-color: #34a853;
+    background-color: hsl(136, 53%, 43%);
     color: #fff;
     font-weight: bold;
     text-align: center;
+}
+
+#submit:hover {
+    background-color: hsl(136, 53%, 33%);
+    cursor: pointer;
 }
