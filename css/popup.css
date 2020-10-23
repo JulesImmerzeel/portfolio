@@ -1,0 +1,22 @@
+#popup {
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
+    -moz-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
+    box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
+    height: 50vh;
+    width: 50vh;
+    z-index: 2;
+    background-color: white;
+    padding: 1rem;
+
+    position: fixed;
+    width: 50vh;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    margin-top: -25vh; /* Negative half of height. */
+    margin-left: -25vh; /* Negative half of width. */
+
+
+}
