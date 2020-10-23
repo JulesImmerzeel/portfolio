@@ -1,8 +1,15 @@
 #skills {
     height: 100%;
-    display: grid;
-    grid-template-rows: auto repeat(3, 1fr);
-    row-gap: 1rem;
+    display: flex;
+	flex-direction: column;
+}
+
+#skills > * {
+	margin-bottom: 1rem;
+}
+
+#skills > *:last-child {
+	margin-bottom: 0rem;
 }
 
 .progress {

@@ -4,8 +4,8 @@
 
 }
 
-#contact > h2 {
-    align-self: flex-start;
+#contact h2 {
+    margin-bottom: 1rem;
 }
 
 #emailform {

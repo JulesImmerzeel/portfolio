@@ -22,13 +22,17 @@
     align-self: center;
 }
 
+.timeline h2 {
+    margin-bottom: 1rem;
+}
+
 @media (min-width: 992px) {
     .timeline {
         grid-area: timeline;
         display: block;
     }
 
-    .timeline > div:nth-child(3) {
+    .timeline > * > div:nth-child(3) {
         border-top: 1px solid black;
     }
 

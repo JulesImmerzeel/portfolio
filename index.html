@@ -5,15 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		
 		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" href="css/header.css">
-		<link rel="stylesheet" href="css/experience.css">
-		<link rel="stylesheet" href="css/skills.css">
-		<link rel="stylesheet" href="css/projects.css">
-		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/about.css" />
+		<link rel="stylesheet" href="css/experience.css" />
+		<link rel="stylesheet" href="css/skills.css" />
+		<link rel="stylesheet" href="css/projects.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+
 		<title>Jules Immerzeel</title>
 	</head>
-	<body>
-		<div class="container">
+	<body class="container">
 			<header>
 				<nav>
 					<a href="#about">About</a>
@@ -25,122 +26,126 @@
 					<p>A Computer Science student</p>
 				</div>
 			</header>
-			<div id="about">
-				<h2>Hoi!</h2>
-				<p>
-					Mijn naam is Jules Immerzeel.<br />
-					Ik ben een 20 jarige student informatica aan de
-					Hogeschool Rotterdam.<br />
-					Computers hebben mij sinds jonge leeftijd geïnteresseerd
-					en doen dit nog steeds!<br />
-				</p>
-				<p>
-					Naast Computer Science is mijn grote passie muziek.<br />
-					Ik kan veel genres waarderen en speel zelf de
-					elektrische gitaar.<br />
-				</p>
-				
-			</div>
-			<div id="skills">
-				<h2>Vaardigheden</h2>
-				<div class="progress">
-					<div id="csharp" class="progress-done" data-done="70">
-						C# 70%
+			<section id="about">
+				<article>
+					<h2>Hoi!</h2>
+					<p>
+						Mijn naam is Jules Immerzeel.<br />
+						Ik ben een 20 jarige student informatica aan de
+						Hogeschool Rotterdam.<br />
+						Computers hebben mij sinds jonge leeftijd geïnteresseerd
+						en doen dit nog steeds!<br />
+					</p>
+					<p>
+						Naast Computer Science is mijn grote passie muziek.<br />
+						Ik kan veel genres waarderen en speel zelf de
+						elektrische gitaar.<br />
+					</p>
+				</article>
+				<article id="skills">
+					<h2>Vaardigheden</h2>
+					<div class="progress">
+						<div id="csharp" class="progress-done" data-done="70">
+							C# 70%
+						</div>
+					</div>
+					<div class="progress">
+						<div id="python" class="progress-done" data-done="80">
+							Python 80%
+						</div>
+					</div>
+					<div class="progress">
+						<div id="frontend" class="progress-done" data-done="90" onclick="console.log('test')">
+							HTML | CSS | Javascript 90%
+						</div>
+					</div>
+				</article>
+				<!-- <img id="photo" src="profielfoto.jpg" alt="Jules Immerzeel photo" /> -->
+				<img id="photo" src="https://via.placeholder.com/470/09f/fff.png" alt="placeholder">
+				<article class="timeline">
+					<h2>Werkervaring | Opleiding</h2>
+        			<div>
+        				<div class="odd">
+        				    <span>2013</span>
+        				    <span>2015</span>
+        				    <span>2017</span>
+        				    <span>2019</span>
+        				    <span>2021</span>
+        				</div>
+        				<div class="even">
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div class="event" id="middelbareschool"><span>Wolfert Lyceum</span></div>
+        				    <div class="event" id="hogeschool"><span>Hogeschool Rotterdam</span></div>
+        				</div>
+        				<div class="odd">
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div></div>
+        				    <div class="event" id="axender"><span>Axender</span></div>
+        				    <div class="event" id="albertheijn"><span>Albert Heijn</span></div>
+        				    <div class="event" id="nickysplace"><span>Nicky's Place</span></div>
+        				</div>
+        				<div class="even">
+        				    <div></div>
+        				    <span>2014</span>
+        				    <span>2016</span>
+        				    <span>2018</span>
+        				    <span>2020</span>
+        				</div>
+					</div>
+				</article>
+				<div class="experience">
+					<h2>Werkervaring</h2>
+					<div>
+						<div>
+							<p><b>Maaltijd bezorger</b></p>
+							<p><i>Nicky's Place</i></p>
+						</div>
+						<p>2017 - Heden</p>
+						<div>
+							<p><b>Vakkenvuller</b></p>
+							<p><i>Albert Heijn</i></p>
+						</div>
+						<p>2014 - 2017</p>
+						<div>
+							<p><b>Folder bezorger</b></p>
+							<p><i>Axender</i></p>
+						</div>
+						<p>2013 - 2014</p>
+					</div>
+					<h2>Opleiding</h2>
+					<div>
+						<div>
+							<p><b>Informatica 3e jaars</b></p>
+							<p><i>Hogeschool Rotterdam</i></p>
+						</div>
+						<p>2018 - Heden</p>
+						<div>
+							<p><b>Havo Natuur en Gezondheid</b></p>
+							<p><i>Wolfer Lyceum</i></p>
+						</div>
+						<p>2013 - 2018</p>
 					</div>
 				</div>
-				<div class="progress">
-					<div id="python" class="progress-done" data-done="80">
-						Python 80%
-					</div>
-				</div>
-				<div class="progress">
-					<div id="frontend" class="progress-done" data-done="90" onclick="console.log('test')">
-						HTML | CSS | Javascript 90%
-					</div>
-				</div>
-			</div>
-        	<img id="photo" src="profielfoto.jpg" alt="Jules Immerzeel photo" />
-        	<div class="timeline">
-        		<div class="odd">
-        		    <span>2013</span>
-        		    <span>2015</span>
-        		    <span>2017</span>
-        		    <span>2019</span>
-        		    <span>2021</span>
-        		</div>
-        		<div class="even">
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div class="event" id="middelbareschool"><span>Wolfert Lyceum</span></div>
-        		    <div class="event" id="hogeschool"><span>Hogeschool Rotterdam</span></div>
-        		</div>
-        		<div class="odd">
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div></div>
-        		    <div class="event" id="axender"><span>Axender</span></div>
-        		    <div class="event" id="albertheijn"><span>Albert Heijn</span></div>
-        		    <div class="event" id="nickysplace"><span>Nicky's Place</span></div>
-        		</div>
-        		<div class="even">
-        		    <div></div>
-        		    <span>2014</span>
-        		    <span>2016</span>
-        		    <span>2018</span>
-        		    <span>2020</span>
-        		</div>
-			</div>
-			<div class="experience">
-				<h2>Werkervaring</h2>
-				<div>
-					<div>
-						<p><b>Maaltijd bezorger</b></p>
-						<p><i>Nicky's Place</i></p>
-					</div>
-					<p>2017 - Heden</p>
-					<div>
-						<p><b>Vakkenvuller</b></p>
-						<p><i>Albert Heijn</i></p>
-					</div>
-					<p>2014 - 2017</p>
-					<div>
-						<p><b>Folder bezorger</b></p>
-						<p><i>Axender</i></p>
-					</div>
-					<p>2013 - 2014</p>
-				</div>
-				<h2>Opleiding</h2>
-				<div>
-					<div>
-						<p><b>Informatica 3e jaars</b></p>
-						<p><i>Hogeschool Rotterdam</i></p>
-					</div>
-					<p>2018 - Heden</p>
-					<div>
-						<p><b>Havo Natuur en Gezondheid</b></p>
-						<p><i>Wolfer Lyceum</i></p>
-					</div>
-					<p>2013 - 2018</p>
-				</div>
-			</div>
-			
+			</section>
 			<section id="projects">
-				<h2>Projects</h2>
+				<h2>Projecten</h2>
 				<article class="project">
 					<img src="https://via.placeholder.com/300/09f/fff.png" alt="placeholder">
 					<div>
@@ -202,7 +207,6 @@
 				<input id="submit" type="submit" name="submit" value="Verstuur">
 			</form>
 		</section>
-		</div>
 		<script src="script.js"></script>
 	</body>
 </html>
