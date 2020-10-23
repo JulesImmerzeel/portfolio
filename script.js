@@ -1,10 +1,10 @@
-function focusEvent(className) {
-    const elements = document.getElementsByClassName(className);
-    for(let element of elements){
-        element.addEventListener("click", () => {element.style.backgroundColor = 'pink'});
-        console.log('success')
-    }
-}
+// function focusEvent(className) {
+//     const elements = document.getElementsByClassName(className);
+//     for(let element of elements){
+//         element.addEventListener("click", () => {element.style.backgroundColor = 'pink'});
+//         console.log('success')
+//     }
+// }
 
 
 window.onload = function skillAnimation() {
@@ -15,8 +15,8 @@ window.onload = function skillAnimation() {
         skill.style.opacity = 1;
     }
 
-    focusEvent('progress-done')
-    focusEvent('event')
+    // focusEvent('progress-done')
+    // focusEvent('event')
 }
 
 
