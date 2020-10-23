@@ -12,7 +12,7 @@
     grid-area: email;
 }
 
-#emailform > * {
+form > * {
     all: unset;
     width: 100%;
     padding: 1rem;
@@ -26,13 +26,12 @@
 }
 
 #submit {
-    background-color: hsl(136, 53%, 43%);
+
     color: #fff;
     font-weight: bold;
     text-align: center;
 }
 
 #submit:hover {
-    background-color: hsl(136, 53%, 33%);
     cursor: pointer;
 }

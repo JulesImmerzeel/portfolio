@@ -32,30 +32,6 @@
 	font-weight: bold;
 }
 
-#csharp {
-	background-color: hsl(5, 81%, 56%);
-}
-
-#csharp:hover {
-	background-color: hsl(5, 81%, 46%);
-}
-
-#python {
-	background-color: hsl(217, 89%, 61%);
-}
-
-#python:hover {
-	background-color: hsl(217, 89%, 51%);
-}
-
-#frontend {
-	background-color: hsl(45, 97%, 50%);
-}
-
-#frontend:hover {
-	background-color: hsl(45, 97%, 40%);
-}
-
 @media (max-width: 992px) {
 	.progress-done {
 		padding: 1rem 0rem;
