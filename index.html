@@ -47,17 +47,17 @@
 				<article id="skills">
 					<h2>Vaardigheden</h2>
 					<div class="progress">
-						<button id="csharp" class="progress-done red" data-done="70">
+						<button id="csharp" class="progress-done red" data-done="70" onclick="show('<h3>C#</h3>')">
 							C# 70%
 						</button>
 					</div>
 					<div class="progress">
-						<button id="python" class="progress-done blue" data-done="80">
+						<button id="python" class="progress-done blue" data-done="80" onclick="show('<h3>Python</h3>')">
 							Python 80%
 						</button>
 					</div>
 					<div class="progress">
-						<button id="frontend" class="progress-done yellow" data-done="90" onclick="console.log('test')">
+						<button id="frontend" class="progress-done yellow" data-done="90" onclick="show('<h3>HTML | CSS | Javascript</h3>')">
 							HTML | CSS | Javascript 90%
 						</button>
 					</div>
@@ -146,6 +146,9 @@
 					</div>
 				</div>
 			</section>
+
+
+
 			<section id="projects">
 				<h2>Projecten</h2>
 				<article class="project">
@@ -181,6 +184,7 @@
 						</ul>
 					</div>
 				</article>
+
 				<article class="project">
 					<img src="https://via.placeholder.com/300/09f/fff.png" alt="placeholder">
 					<div>
@@ -198,6 +202,9 @@
 					</div>
 				</article>
 			</section>
+
+
+
 			<section id="contact">
 				<article>
 					<h2>Contact</h2>
@@ -209,7 +216,15 @@
 				<input id="submit" class="green" type="submit" name="submit" value="Verstuur">
 			</form>
 		</section>
-		<article id="popup"><h3>c#</h3></article>
+
+
+
+		<section id="popup">
+			<button id="close" onclick="hide()"><img src="css/close-24px.svg" alt=""/></button>
+			<article>
+
+			</article>
+		</section>
 		<script src="script.js"></script>
 	</body>
 </html>

@@ -8,15 +8,21 @@
     width: 50vh;
     z-index: 2;
     background-color: white;
-    padding: 1rem;
+    padding: 2rem;
 
     position: fixed;
-    width: 50vh;
+    width: 40vh;
     height: 50vh;
     top: 50%;
     left: 50%;
     margin-top: -25vh; /* Negative half of height. */
-    margin-left: -25vh; /* Negative half of width. */
+    margin-left: -20vh; /* Negative half of width. */
+    display: flex;
+    flex-direction: column;
+}
 
-
+#close {
+    margin-left: auto;
+    align-self: flex-end;
+    margin-bottom: 1rem;
 }

@@ -20,3 +20,13 @@ window.onload = function skillAnimation() {
 }
 
 
+function hide() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function show(text) {
+    console.log("show")
+    document.querySelector("#popup > article").innerHTML = text
+    document.getElementById("popup").style.display = "flex";
+
+}
