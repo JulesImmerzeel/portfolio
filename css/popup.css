@@ -17,7 +17,7 @@
     left: 50%;
     margin-top: -25vh; /* Negative half of height. */
     margin-left: -20vh; /* Negative half of width. */
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 

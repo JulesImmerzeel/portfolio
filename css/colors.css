@@ -10,6 +10,10 @@
     background-color: hsl(217, 89%, 61%);
 }
 
+button.blue:hover {
+    background-color: tomato !important;
+}
+
 .yellow {
     background-color: hsl(45, 97%, 50%);
 }
