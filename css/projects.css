@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: start;
     flex: 1;
+    overflow-wrap: break-word;
 }
 
 /* Ul of tags for the project */
@@ -41,7 +42,6 @@
     margin-right: 0.5rem;
     border-radius: 0.5rem;
     color: #fff;
-    margin-top: 1rem;
 }
 
 /* Sets the flex-direction on everything smaller than tablets to column. */
