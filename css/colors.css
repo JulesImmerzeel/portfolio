@@ -2,8 +2,16 @@
     background-color: hsl(5, 81%, 56%);
 }
 
+button.red:hover {
+    background-color: hsl(4, 71%, 50%) !important;
+}
+
 .green {
-    background-color: #34a853;
+    background-color: hsl(136, 53%, 43%);
+}
+
+.green:hover {
+    background-color:hsl(138, 68%, 30%) !important;
 }
 
 .blue {
@@ -11,10 +19,14 @@
 }
 
 button.blue:hover {
-    background-color: tomato !important;
+    background-color: hsl(214, 82%, 51%) !important;
 }
 
 .yellow {
     background-color: hsl(45, 97%, 50%);
+}
+
+button.yellow:hover {
+    background-color:hsl(45, 97%, 45%) !important;
 }
 
