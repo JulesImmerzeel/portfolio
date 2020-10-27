@@ -7,7 +7,7 @@
 .project {
     display: flex;
     height: 30vh;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     -webkit-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
     -moz-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
     box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
@@ -21,7 +21,7 @@
 
 /* Text area */
 .project > *:nth-child(2) {
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -62,5 +62,5 @@
 }
 
 h3{
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }

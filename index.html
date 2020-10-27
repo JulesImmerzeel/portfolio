@@ -47,7 +47,7 @@
 				<article id="skills">
 					<h2>Vaardigheden</h2>
 					<div class="progress">
-						<button id="csharp" class="progress-done red" data-done="70" onclick="show('<h3>C#</h3>')">
+						<button id="csharp" class="progress-done red" data-done="70" onclick="show('C#', 'Vooral in het tweede jaar van mijn opleiding heb ik deze taal veel gebruikt. Ik vind C# een prettige taal om mee te werken. Hoofdzakelijk omdat de online documentatie zo goed is en ik de syntax erg strak en overzichtelijk vind.', ['ASP.NET', 'Console applicaties'])">
 							C# 70%
 						</button>
 					</div>
@@ -57,8 +57,8 @@
 						</button>
 					</div>
 					<div class="progress">
-						<button id="frontend" class="progress-done yellow" data-done="90" onclick="show('<h3>HTML | CSS | Javascript</h3>')">
-							HTML | CSS | Javascript 90%
+						<button id="frontend" class="progress-done yellow" data-done="90" onclick="show('Frontend', 'Tijdens mijn opleiding heb ik verschillende webapplicaties gemaakt. Hierbij heb ik veel ervaring met html, css en javascript opgedaan. Voor mijn 3e jaars stage heb ik daarom voor een webdevelopment stage gekozen. Tijdens deze stage heb ik  veel met Sass, Bootstrap en React.js heb gewerkt.', ['HTML', 'CSS', 'Sass', 'Bootstrap', 'Javascript', 'Typescript', 'React.js'])">
+							Frontend 90%
 						</button>
 					</div>
 				</article>
@@ -85,8 +85,8 @@
         				    <div></div>
         				    <div></div>
         				    <div></div>
-        				    <button class="event blue" id="middelbareschool">Wolfert Lyceum</button>
-        				    <button class="event yellow" id="hogeschool">Hogeschool Rotterdam</button>
+        				    <button class="event blue" id="middelbareschool">Havo | Natuur en gezondheid</button>
+        				    <button class="event yellow" id="hogeschool">HBO | Informatica</button>
         				</div>
         				<div class="odd">
         				    <div></div>
@@ -99,9 +99,9 @@
         				    <div></div>
         				    <div></div>
         				    <div></div>
-        				    <button class="event yellow" id="axender">Axender</button>
-        				    <button class="event red" id="albertheijn">Albert Heijn</button>
-        				    <button class="event green" id="nickysplace">Nicky's Place</button>
+        				    <button class="event yellow" id="axender">Folderwijk</button>
+        				    <button class="event red" id="albertheijn">Vakkenvuller</button>
+        				    <button class="event green" id="nickysplace">Maaltijd bezorger</button>
         				</div>
         				<div class="even">
         				    <div></div>
@@ -220,9 +220,9 @@
 
 
 		<section id="popup">
-			<button id="close" onclick="hide()"><img src="css/close-24px.svg" alt=""/></button>
 			<article>
 				<h3></h3>
+				<button id="close" onclick="hide()"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></button>
 				<p></p>
 				<b>Ervaring met:</b>
 				<ul></ul>
