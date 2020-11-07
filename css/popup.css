@@ -21,7 +21,7 @@
     overflow-y: hidden;
     overflow-wrap: break-word;
     transition: 0.3s;
-    opacity: 100;
+    opacity: 0;
 
 }
 
