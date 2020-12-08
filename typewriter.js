@@ -1,10 +1,16 @@
-export default function typewriter(elementId, textToWrite) {
-
-    const textArray = textToWrite.split('');
-    let textOutputArray = [];
-
-    for(let i = 0; i < textArray.length; i++) {
-        textOutputArray.push(textArray[i]);
-        document.getElementById(elementId).innerText = textOutputArray.join('');
-    }
+export default function typeWriter(txt, id) {
+    return new Promise((resolve, reject) => {
+        let i = 0;
+        const x = () => {
+            document.getElementById(id).innerHTML += txt.charAt(i);
+            i++;
+            if (i < txt.length) {
+                setTimeout(x, 80);
+            }
+            else {
+                resolve();
+            }
+        }
+        x();
+    })
 }

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
+		<base href="." target="_self">
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/header.css" />
 		<link rel="stylesheet" href="css/about.css" />
@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="css/contact.css" />
 		<link rel="stylesheet" href="css/popup.css">
 		<link rel="stylesheet" href="css/colors.css">
-
+		<script type="module" src="script.js"></script>
 		<title>Jules Immerzeel</title>
 	</head>
 	<body class="container">
@@ -24,8 +24,8 @@
 					<a href="#contact">Contact</a>
 				</nav>
 				<div class="hero-section">
-					<h1>Jules Immerzeel</h1>
-					<p>A Computer Science student</p>
+					<h1 id="header-name"></h1>
+					<p id="header-subtext"></p>
 				</div>
 			</header>
 			<section id="about">
@@ -230,7 +230,7 @@
 				<ul></ul>
 			</article>
 		</section>
-		<script src="script.js"></script>
+		
 	</body>
 </html>
  
