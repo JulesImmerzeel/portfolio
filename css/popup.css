@@ -20,8 +20,7 @@
     display: flex;
     overflow-y: hidden;
     overflow-wrap: break-word;
-    transition: 0.3s;
-    opacity: 0;
+    display: none
 
 }
 
