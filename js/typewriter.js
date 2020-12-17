@@ -1,4 +1,4 @@
-export default function typeWriter(txt, id) {
+export default function typeWriter (txt, id) {
     return new Promise((resolve, reject) => {
         let i = 0;
         const x = () => {

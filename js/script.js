@@ -6,7 +6,7 @@ window.onload = async () => {
     typewriter("A Computer Science student", "header-subtext");
 }
 
-function skillAnimation() {
+function skillAnimation () {
     const skills = document.getElementsByClassName('progress-done');
     for(let skill of skills) {
         skill.style.width = skill.getAttribute('data-done') + '%';
