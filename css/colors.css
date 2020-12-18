@@ -1,32 +1,40 @@
-.red {
+.red, .event > .red {
     background-color: hsl(5, 81%, 56%);
+    fill: hsl(5, 81%, 56%);
 }
 
-button.red:hover {
-    background-color: hsl(4, 71%, 50%) !important;
+.red:not(li):hover, .event:hover > .red {
+    background-color: hsl(4, 71%, 50%);
+    fill: hsl(4, 71%, 50%);
 }
 
-.green {
+.green, .event > .green {
     background-color: hsl(136, 53%, 43%);
+    fill: hsl(136, 53%, 43%);
 }
 
-.green:hover {
-    background-color:hsl(138, 68%, 30%) !important;
+.green:not(li):hover, .event:hover > .green {
+    background-color:hsl(138, 68%, 30%);
+    fill:hsl(138, 68%, 30%);
 }
 
-.blue {
+.blue, .event > .blue {
     background-color: hsl(217, 89%, 61%);
+    fill: hsl(217, 89%, 61%);
 }
 
-button.blue:hover {
-    background-color: hsl(214, 82%, 51%) !important;
+.blue:not(li):hover, .event:hover > .blue {
+    background-color: hsl(214, 82%, 51%);
+    fill: hsl(214, 82%, 51%);
 }
 
-.yellow {
+.yellow, .event > .yellow {
     background-color: hsl(45, 97%, 50%);
+    fill: hsl(45, 97%, 50%);
 }
 
-button.yellow:hover {
-    background-color: hsl(45, 100%, 45%) !important;
+.yellow:not(li):hover, .event:hover > .yellow {
+    background-color: hsl(45, 100%, 45%);
+    fill: hsl(45, 100%, 45%);
 }
 

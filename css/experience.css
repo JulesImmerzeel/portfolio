@@ -17,11 +17,8 @@
 	font-size:9px;
 }
 
-#events > text {
+.event > text {
 	fill:#FFF;
-}
-#wolfert {
-	fill:#4387F4;
 }
 
 #informatica {
