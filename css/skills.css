@@ -27,9 +27,56 @@
 	justify-content: center;
 	height: 100%;
 	width: 0;
-	opacity: 0;
-	transition: 1s ease 0.3s;
+	animation: slidein 4s;
 	font-weight: bold;
+}
+
+#csharp {
+	animation: slide-in-csharp 1.6s forwards;
+}
+
+#python {
+	animation: slide-in-python 1.5s forwards;
+}
+
+#frontend {
+	animation: slide-in-frontend 2s forwards;
+}
+
+@keyframes slide-in-csharp {
+	from {
+	  width: 0%;
+	  opacity: 0;
+	}
+  
+	to {
+	  width: 70%;
+	  opacity: 1;
+	}
+  }
+
+@keyframes slide-in-python {
+	from {
+		width: 0%;
+		opacity: 0;
+	}
+  
+	to {
+	  width: 80%;
+	  opacity: 1;
+	}
+}
+
+@keyframes slide-in-frontend {
+	from {
+		width: 0%;
+		opacity: 0;
+	}
+  
+	to {
+	  width: 90%;
+	  opacity: 1;
+	}
 }
 
 @media (max-width: 992px) {
