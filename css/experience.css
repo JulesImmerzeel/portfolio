@@ -1,16 +1,41 @@
-.timeline h2 {
+#timeline h2 {
     margin-bottom: 1rem;
 }
 
-.timeline {
+#timeline {
     grid-area: timeline;
     display: block;
 }
-.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
-.st1{fill:#4387F4;}
-.st2{fill:#FBBC05;}
-.st3{fill:#EA4335;}
-.st4{fill:#34A853;}
-.st5{fill:#FFFFFF;}
-.st7{font-size:9px;}
-.st8{fill:#FDFFFD;}
+
+#lines > line {
+	fill:none;
+	stroke:#000;
+	stroke-miterlimit:10;
+}
+
+#timeline text {
+	font-size:9px;
+}
+
+#events > text {
+	fill:#FFF;
+}
+#wolfert {
+	fill:#4387F4;
+}
+
+#informatica {
+	fill:#FBBC05;
+}
+
+#axender {
+	fill:#FBBC05;
+}
+
+#albert-heijn {
+	fill:#EA4335;
+}
+
+#nickys-place {
+	fill:#34A853;
+}
