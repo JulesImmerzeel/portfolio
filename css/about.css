@@ -3,9 +3,7 @@
 	grid-area: about;
 }
 
-#about > *:first-child > * {
-	margin-bottom: 1rem;
-}
+
 
 #about > *:first-child > *:last-child {
 	margin-bottom: 0rem;

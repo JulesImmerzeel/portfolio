@@ -4,10 +4,6 @@
 	flex-direction: column;
 }
 
-#skills > * {
-	margin-bottom: 1rem;
-}
-
 #skills > *:last-child {
 	margin-bottom: 0rem;
 }
@@ -16,7 +12,9 @@
 	background-color: #dbdbdb;
 	border-radius: 1rem;
     height: 100%;
-    width: 100%;
+	width: 100%;
+	margin-bottom: 1rem;
+
 }
 
 .progress-done {
