@@ -9,7 +9,9 @@
 	width: 90%;
 	max-width: 1100px;
 	margin: auto;
+}
 
+.grid {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 25vh;
@@ -37,7 +39,7 @@ p {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	.container {
+	.grid {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: repeat(3, calc(25vh - 1rem)) 25vh;
 		grid-template-areas: "header header" "about photo" "skills photo" "timeline timeline" "projects projects" "contact email";

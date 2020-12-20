@@ -1,34 +1,27 @@
-#popup {
+#modal {
+    display: none;
+    position: fixed;
+    min-height: 50vh;
     width: 100%;
-    border-radius: 1rem;
+    top: 50vh;
+    left: 0;
+
     -webkit-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
     -moz-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
     box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
-    height: 50vh;
-    width: 50vh;
+
     z-index: 2;
+    padding: 1rem 0rem;
     background-color: white;
-    padding: 2rem;
-
-    position: fixed;
-    width: 40vh;
-    height: 50vh;
-    top: 50%;
-    left: 50%;
     margin-top: -25vh; /* Negative half of height. */
-    margin-left: -20vh; /* Negative half of width. */
-    display: flex;
-    overflow-y: hidden;
+
+}
+
+#modal > article {
     overflow-wrap: break-word;
-    display: none
-
 }
 
-#popup > article {
-    width: 100%;
-}
-
-#popup h3 {
+#modal h3 {
     display: inline-block;
 }
 
@@ -37,14 +30,14 @@
     vertical-align: middle;
 }
 
-#popup li {
+#modal li {
     position: relative;
     list-style-type: none;
     padding-left: 2.5rem;
     margin-bottom: 0.5rem;
-  }
+}
 
-#popup li:before {
+#modal li:before {
     content: '';
     display: block;
     position: absolute;
@@ -59,6 +52,6 @@
     transform: rotate(45deg);
 }
 
-#popup ul {
+#modal ul {
     margin-top: 0.5rem;
 }
