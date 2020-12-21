@@ -1,6 +1,6 @@
 header {
-	grid-area: header;
 	display: grid;
+	grid-area: header;
 	grid-template-rows: auto 1fr;
 }
 

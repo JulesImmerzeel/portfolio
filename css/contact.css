@@ -1,7 +1,6 @@
 #contact {
     grid-area: contact;
     display:contents
-
 }
 
 #emailform {
@@ -22,7 +21,6 @@ form > * {
 }
 
 #submit {
-
     color: #fff;
     font-weight: bold;
     text-align: center;

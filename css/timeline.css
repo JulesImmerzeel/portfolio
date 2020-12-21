@@ -1,6 +1,4 @@
-
-
-#timeline {
+#work-eductation {
     grid-area: timeline;
     display: block;
 }
@@ -15,29 +13,13 @@ line {
 	stroke-miterlimit:10;
 }
 
-#timeline text {
+text {
 	font-size:9px;
 }
 
 .event > text {
 	fill:#FFF;
 	font-weight: bold;
-}
-
-#informatica {
-	fill:#FBBC05;
-}
-
-#axender {
-	fill:#FBBC05;
-}
-
-#albert-heijn {
-	fill:#EA4335;
-}
-
-#nickys-place {
-	fill:#34A853;
 }
 
 @media (min-width: 768px) { 
