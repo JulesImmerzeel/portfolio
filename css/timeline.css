@@ -3,9 +3,6 @@
     display: block;
 }
 
-#timeline-desktop {
-	display: none;
-}
 
 line {
 	fill:none;
@@ -22,12 +19,35 @@ text {
 	font-weight: bold;
 }
 
-@media (min-width: 768px) { 
-	#timeline-desktop {
-		display: block;
-	}
-	
-	#timeline-mobile {
-		display: none;
-	}
- }
+.event > .red {
+    fill: hsl(5, 81%, 56%);
+}
+
+.event:hover > .red {
+    fill: hsl(4, 71%, 50%);
+}
+
+.event > .green {
+    fill: hsl(136, 53%, 43%);
+}
+
+.event:hover > .green {
+    fill:hsl(138, 68%, 30%);
+}
+
+.event > .blue {
+    fill: hsl(217, 89%, 61%);
+}
+
+.event:hover > .blue {
+    fill: hsl(214, 82%, 51%);
+}
+
+.event > .yellow {
+
+    fill: hsl(45, 97%, 50%);
+}
+
+.event:hover > .yellow {
+    fill: hsl(45, 100%, 45%);
+}
