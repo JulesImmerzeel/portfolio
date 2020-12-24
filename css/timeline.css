@@ -3,6 +3,11 @@
     display: block;
 }
 
+/* #timeline-mobile {
+    max-height: 120vh;
+    margin: auto;
+    display: inline;
+} */
 
 line {
 	fill:none;
