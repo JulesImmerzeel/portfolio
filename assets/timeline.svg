@@ -17,23 +17,23 @@
 	</g>
 	<g id="events">
 		<g class="event">
-			<rect class="blue" x="52.0764" y="11.6465 " width="245" height="20"/>
+			<rect class="blue" x="52.0764" y="11.6465 " width="245" height="20" rx="5"/>
 			<text transform="matrix(1 0 0 1 117.1244 24.0471)">Havo | Natuur &amp; Gezondheid</text>
 		</g>
 		<g class="event">
-			<rect class="yellow" x="302.0764" y="11.6465 " width="145" height="20"/>
+			<rect class="yellow" x="302.0764" y="11.6465 " width="145" height="20" rx="5"/>
 			<text transform="matrix(1 0 0 1 337.894 24.0471)">Hbo | Informatica</text>
 		</g>
 		<g class="event">
-			<rect class="yellow" x="52.5" y="36.6465" width="45" height="20"/>
-			<text transform="matrix(1 0 0 1 54.7456 49.0471)">Folderwijk</text>
+			<rect class="yellow" x="52.5" y="36.6465" width="45" height="20" rx="5"/>
+			<text x="75" y="46.6465" dominant-baseline="middle" text-anchor="middle">Folders</text>
 		</g>
 		<g class="event">
-			<rect class="red" x="102.5" y="36.6465" width="145" height="20"/>
+			<rect class="red" x="102.5" y="36.6465" width="145" height="20" rx="5"/>
 			<text transform="matrix(1 0 0 1 149.5081 49.0471)">Vakkenvuller</text>
 		</g>
 		<g class="event">
-			<rect class="green" x="252.5" y="36.6465" width="195" height="20"/>
+			<rect class="green" x="252.5" y="36.6465" width="195" height="20" rx="5"/>
 			<text transform="matrix(1 0 0 1 312.9202 49.0471)">Maaltijd bezorger</text>
 		</g>
 	</g>
