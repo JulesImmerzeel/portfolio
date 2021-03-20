@@ -1,12 +1,7 @@
-header {
-	display: grid;
-	grid-area: header;
-	grid-template-rows: auto 1fr;
-}
-
 /* Navigation */
 nav {
 	display: flex;
+	grid-area: navbar;
     justify-content: center;    
 }
 
@@ -24,6 +19,7 @@ nav > a:hover {
 
 /* Hero */
 .hero-section {
+	grid-area: header;
 	justify-self: center;
 	align-self: center;
 	text-align: center;

@@ -13,9 +13,9 @@
 .grid {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 25vh;
-	grid-template-areas: "header" "about" "photo" "skills" "timeline" "projects" "contact" "email";
-	gap: 1rem;
+	grid-template-areas: "navbar" "header" "about" "photo" "skills" "timeline" "projects" "contact" "email";
+	column-gap: 1rem;
+	row-gap: 3rem;
 }
 
 h2, h3 {
@@ -53,8 +53,8 @@ p {
 @media (min-width: 992px) {
 	.grid {
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: repeat(3, calc(25vh - 1rem)) 25vh;
-		grid-template-areas: "header header" "about photo" "skills photo" "timeline timeline" "projects projects" "contact email";
+		grid-auto-rows: auto;
+		grid-template-areas: "navbar navbar" "header header" "about photo" "skills photo" "timeline timeline" "projects projects" "contact email";
 	}
 }
 /* Extra large devices (large desktops, 1200px and up) */
