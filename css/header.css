@@ -18,13 +18,13 @@ nav > a:hover {
 }
 
 /* Hero */
-.hero-section {
+header {
 	grid-area: header;
 	justify-self: center;
 	align-self: center;
 	text-align: center;
 }
 
-.hero-section > p {
+header > p {
 	color: rgba(0, 0, 0, 0.75);
 }
