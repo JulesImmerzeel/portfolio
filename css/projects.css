@@ -17,6 +17,7 @@
 
 .project > img {
     max-width: 30vh;
+    object-fit: cover;
 }
 
 /* Text area */

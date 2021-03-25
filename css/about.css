@@ -1,6 +1,7 @@
 #about {
-	display: contents;
+	display: flex;
 	grid-area: about;
+	flex-direction: column;
 }
 
 
@@ -9,9 +10,9 @@
 	margin-bottom: 0rem;
 }
 
-#skills {
+/* #skills {
 	grid-area: skills;
-}
+} */
 
 #photo {
 	grid-area: photo;
