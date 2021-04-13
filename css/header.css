@@ -23,6 +23,7 @@ header {
 	justify-self: center;
 	align-self: center;
 	text-align: center;
+	min-height: 56px;
 }
 
 header > p {

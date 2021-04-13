@@ -1,6 +1,7 @@
 #skills {
     display: flex;
 	flex-direction: column;
+	align-self: end;
 }
 
 #skills > *:last-child {

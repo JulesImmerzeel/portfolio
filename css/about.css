@@ -1,7 +1,8 @@
 #about {
-	display: flex;
+	display: inline-grid;
 	grid-area: about;
 	flex-direction: column;
+	row-gap: 3rem;
 }
 
 
