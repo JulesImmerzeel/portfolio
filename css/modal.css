@@ -1,28 +1,26 @@
 #modal {
     display: none;
     position: fixed;
-    min-height: 50vh;
-    width: 100%;
     top: 50vh;
-    left: 0;
-
+    width: calc(clamp(1rem, 90vw, 1100px) / 2);
+    min-height: 50vh;
+    border-radius: 0px 20px 20px 0px;
     -webkit-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
     -moz-box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
     box-shadow: 5px 10px 40px -1px rgba(0,0,0,0.37);
 
     z-index: 2;
-    padding: 1rem 0rem;
+    padding: 1rem;
     background-color: white;
     margin-top: -25vh; /* Negative half of height. */
-
-}
-
-#modal > article {
     overflow-wrap: break-word;
+
 }
+
 
 #modal h3 {
     display: inline-block;
+    font-size: 2.5rem;
 }
 
 #close {

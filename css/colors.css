@@ -18,7 +18,7 @@
     background-color: hsl(217, 89%, 61%);
 }
 
-.blue:not(li):hover, .event:hover > .blue {
+.blue:not(li):hover {
     background-color: hsl(214, 82%, 51%);
 }
 

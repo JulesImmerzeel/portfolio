@@ -39,11 +39,6 @@ p {
 	display: none;
 }
 
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
-
 @media (min-width: 768px) { 
 	#object-timeline {
 		display: block;
@@ -53,10 +48,6 @@ img {
 		display: none;
 	}
  }
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -67,5 +58,3 @@ img {
 		grid-template-areas: "navbar navbar" "header header" "about photo" "about photo" "timeline timeline" "projects projects" "contact email";
 	}
 }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
