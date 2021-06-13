@@ -1,0 +1,47 @@
+<svg id="timeline-desktop" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 70" style="enable-background:new 0 0 500 70;" xml:space="preserve">
+	<g class="lines">
+		<line x1="50" y1="34.15" x2="50" y2="9.15"/>
+		<line x1="150" y1="33.95" x2="150" y2="9.15"/>
+		<line x1="100" y1="34.65" x2="100" y2="59.15"/>
+		<line x1="200" y1="34.15" x2="200" y2="59.15"/>
+		<line x1="249.81" y1="33.65" x2="249.81" y2="9.15"/>
+		<line x1="299.81" y1="33.65" x2="299.81" y2="59.15"/>
+		<line x1="349.81" y1="33.65" x2="349.81" y2="9.15"/>
+		<line x1="399.81" y1="34.65" x2="399.81" y2="59.15"/>
+		<line x1="449.81" y1="34.15" x2="449.81" y2="9.15"/>
+		<line x1="0" y1="34.15" x2="498.5" y2="34.15"/>
+	</g>
+	<g id="events">
+		<g class="event">
+			<rect class="blue" x="52.0764" y="11.6465 " width="245" height="20" rx="5"/>
+			<text transform="matrix(1 0 0 1 117.1244 24.0471)">Havo | Natuur &amp; Gezondheid</text>
+		</g>
+		<g class="event">
+			<rect class="yellow" x="302.0764" y="11.6465 " width="145" height="20" rx="5"/>
+			<text transform="matrix(1 0 0 1 337.894 24.0471)">Hbo | Informatica</text>
+		</g>
+		<g class="event">
+			<rect class="yellow" x="52.5" y="36.6465" width="45" height="20" rx="5"/>
+			<text x="75" y="46.6465" dominant-baseline="middle" text-anchor="middle">Folders</text>
+		</g>
+		<g class="event">
+			<rect class="red" x="102.5" y="36.6465" width="145" height="20" rx="5"/>
+			<text transform="matrix(1 0 0 1 149.5081 49.0471)">Vakkenvuller</text>
+		</g>
+		<g class="event">
+			<rect class="green" x="252.5" y="36.6465" width="195" height="20" rx="5"/>
+			<text transform="matrix(1 0 0 1 312.9202 49.0471)">Maaltijd bezorger</text>
+		</g>
+	</g>
+	<g id="years">
+		<text transform="matrix(1 0 0 1 39.9893 7.7239)">2013</text>
+		<text transform="matrix(1 0 0 1 139.9893 7.7239)">2015</text>
+		<text transform="matrix(1 0 0 1 239.7998 7.7244)">2017</text>
+		<text transform="matrix(1 0 0 1 339.7997 7.7239)">2019</text>
+		<text transform="matrix(1 0 0 1 439.7997 7.7244)">2021</text>
+		<text transform="matrix(1 0 0 1 89.9893 68.3699)">2014</text>
+		<text transform="matrix(1 0 0 1 189.5698 68.3699)">2016</text>
+		<text transform="matrix(1 0 0 1 289.7998 68.3699)">2018</text>
+		<text transform="matrix(1 0 0 1 389.7998 68.3704)">2020</text>
+	</g>
+</svg>
