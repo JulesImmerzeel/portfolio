@@ -1,2 +1,2 @@
-FROM alpine
-COPY . ./portfolio
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
