@@ -1,25 +1,18 @@
 #about {
-	display: inline-grid;
 	grid-area: about;
-	flex-direction: column;
-	row-gap: 3rem;
 }
 
-
-
-#about > *:first-child > *:last-child {
-	margin-bottom: 0rem;
-}
-
-/* #skills {
+#skills {
 	grid-area: skills;
-} */
+}
 
 #photo {
 	grid-area: photo;
 	max-width: 100%;
 	max-height: 100%;
 	justify-self: center;
+	align-self: center;
+
 }
 
 .timeline {
