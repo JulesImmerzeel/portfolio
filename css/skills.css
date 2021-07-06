@@ -19,6 +19,7 @@
 
 .progress-done {
 	display: flex;
+	justify-content: space-between;
 	height: 100%;
 	padding: 1rem;
 	width: 0;
@@ -27,6 +28,11 @@
 	color: white;
 	font-weight: bold;
 	animation: slidein 4s;
+}
+
+.i-icon {
+	max-height: 1rem;
+	color: white;
 }
 
 #csharp {
