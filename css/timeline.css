@@ -22,6 +22,7 @@ text {
 .event > text {
 	fill:#FFF;
 	font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 
 .event > .red {
