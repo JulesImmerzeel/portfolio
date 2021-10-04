@@ -17,12 +17,13 @@ line {
 
 text {
 	font-size:9px;
+    font-family: Arial, sans-serif;
+
 }
 
 .event > text {
 	fill:#FFF;
 	font-weight: bold;
-    font-family: Arial, sans-serif;
 }
 
 .event > .red {
