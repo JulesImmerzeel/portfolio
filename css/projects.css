@@ -15,7 +15,7 @@
     overflow: hidden;
 }
 
-.project > img {
+.project > img, .project > video {
     max-width: 30vh;
     object-fit: cover;
 }
@@ -45,6 +45,13 @@
     color: #fff;
 }
 
+/* The tags itself */
+
+.project > *:nth-child(2) > *:last-child li img {
+    height: 19px;
+    margin-right: 5px;
+}
+
 /* Sets the flex-direction on everything smaller than tablets to column. */
 @media (max-width: 576px) {  
     .project {
@@ -53,7 +60,7 @@
         min-height: 90vh;
     }
 
-    .project > img {
+    .project > img, .project > video {
         max-width: 100%;
     }
 }
