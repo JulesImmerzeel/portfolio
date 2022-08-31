@@ -30,3 +30,14 @@
     background-color: hsl(45, 100%, 45%);
 }
 
+/* github */
+.black {
+    background-color: hsl(0, 0%, 0%);
+}
+
+.black a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
